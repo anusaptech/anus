@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div id="show"></div>
+    <script>
+        var html;
+        fetch("data.json")
+      .then((response) => response.json())
+      .then((json) => {
+        for (var data of json) {
+        html+= `
+        <table>
+    <tr>
+      <th>${data.id}</th>
+      <th>${data.Name}</th>
+      <th>${data.PhoneNo}</th>
+      <th>${data.Cnic}</th>
+      <th>${data.Designation}</th>
+      <th>${data.City}</th>
+      <th>${data.Salary}</th>
+      <th>${data.Department}</th>
+      <th>${data.Email}</th>
+    </tr>
+</table>
+        `;
+      }
+      document.getElementById("show").innerHTML=html;
+      });
+    </script>
+</body>
+</html>

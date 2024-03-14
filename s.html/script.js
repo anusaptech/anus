@@ -1,0 +1,2 @@
+alert("sumaira");
+alert("uzair");

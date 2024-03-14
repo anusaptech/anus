@@ -1,0 +1,35 @@
+[
+{
+    "id":"1",
+    "Name":"Ali",
+    "PhoneNo":"030xxxxxxx",
+    "Cnic":"4201-1111111-0",
+    "Designation":"Manager",
+    "city":"Karachi",
+    "Salary":55000,
+    "Department":"Faculty",
+    "Email":"ali111@gmail.com"
+},
+{
+    "id":"2",
+    "Name":"Saad",
+    "Phone No":"0301xxxxxxx",
+    "Cnic":"4234-2222222-1",
+    "Designation":"Doctor",
+    "City":"Lahore",
+    "Salary":60000,
+    "Department":"Health",
+    "Email":"saad123@gmail.com"
+},
+{
+    "id":"3",
+    "Name":"Mehwish",
+    "Phone No":"0313xxxxxxxx",
+    "Cnic":"4286-33333333-8",
+    "Designation":"Hr",
+    "city":"Islamabad",
+    "Salary":450000,
+    "Department":"",
+    "Email":"mehwish222@gamail.com"
+}
+]
